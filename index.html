@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
     <title>Portfolio</title>
     <style>
@@ -61,7 +61,7 @@
             margin-left: 10%;
         }
         #about{
-            padding-top: 35%;
+            padding-top: 60%;
             color: black;
         }
         .row{
@@ -186,19 +186,29 @@
             cursor: pointer;
         }
         .portfolio-left img{
-            width: 550px;
+            width: 410px;
             height: 375px;
             border-radius: 15px;
             margin-left: 5%;
         }
         .portfolio-left{
-            flex-basis: 35%;
+            flex-basis: 25%;
             margin-top: 30px;
         }
         .portfolio-right{
-            flex-basis: 60%;
+            flex-basis: 50%;
             padding: 1% 0;
             font-size: 25px;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        .column {
+            width:33.33%;
+            padding:5px;
+        }
+        .row {
+            display:flex;
         }
     </style>
 </head>
@@ -221,7 +231,7 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="static\kavya.jpg" alt="image">
+                    <img src="static\kavi.jpg" alt="image">
                 </div>
                 <div class="about-col-2">
                     <h1 style="font-size: 60px;font-weight: 600;color:white;">About Me</h1>
@@ -265,8 +275,19 @@
             </div>
         </div>
     </div>
+    <h1 style="font-size: 50px;text-align: center;">Certificates</h1>
     <div id="certificates">
-        
+        <div class="row">
+            <div class="column">
+            <img src="static\edystcertificate.jpg" style="width:100%">
+        </div>
+            <div class="column">
+            <img src="static\HTMLcertificate.jpg" style="width:100%">
+        </div>
+            <div class="column">
+            <img src="static\pythoncertificate.jpg" style="width:100%">
+        </div>
+    </div>
     </div>
     <section id="contact">
     <div>
